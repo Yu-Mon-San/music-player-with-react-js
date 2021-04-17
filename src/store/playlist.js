@@ -35,7 +35,6 @@ const fetchedPlaylist = [
   }
 ];
 
-// mock api request
 export const fetchPlaylist = () => {
   return new Promise((res, rej) => {
     setTimeout(() => res(fetchedPlaylist), 1000);
